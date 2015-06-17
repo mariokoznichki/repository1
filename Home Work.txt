@@ -1,0 +1,5 @@
+format=" %-8s|%-8s|%-8s|\n%s\n"
+
+line=---------------------------
+
+printf "$format" \ NUMBER MONTH DAY $line \ 1 January Monday $line \ 2 February Tuesday $line \ September Friday $line
